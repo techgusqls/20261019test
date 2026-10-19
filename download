@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Streamlit secrets: never commit credentials
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Service account keys and local environment files
+*service-account*.json
+*gcp-key*.json
+*.pem
+.env
+.env.*
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

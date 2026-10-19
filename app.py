@@ -27,7 +27,7 @@ from gspread.exceptions import APIError, SpreadsheetNotFound, WorksheetNotFound
 # 설정: 사용할 Google Sheets 문서의 URL을 여기에 붙여 넣으세요.
 # 예: GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/문서ID/edit"
 # -----------------------------------------------------------------------------
-GOOGLE_SHEET_URL = "여기에_구글_시트_URL_입력"
+GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/13VYuxG3qiOcbFQ0So5xZKyuPIvoxCies7oOarm4gN8U/edit?gid=0#gid=0"
 
 APP_TITLE = "기술실 기자재 관리"
 KST = ZoneInfo("Asia/Seoul")
